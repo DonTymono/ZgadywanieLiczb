@@ -1,10 +1,10 @@
 import java.util.Scanner;
 
 public class ZgadywanieLiczb {
-public static void main(String[] args) {
-Scanner scanner = new Scanner(System.in);
-zgadywarka zgadula = new zgadywanka();
-zgadula.start();
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        zgadywarka zgadula = new zgadywanka();
+        zgadula.start();
 
         while (true) {
             System.out.println("Czy Twoja liczba to " + zgadula.Zgadywana() + "?");
